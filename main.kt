@@ -2,7 +2,7 @@ fun main() {
     println(fizzbuzz(15).joinToString())
 }
 
-fun fizbuzz(n: Int): List<String> {
+fun fizzbuzz(n: Int): List<String> {
     val list = List(n) { i ->
         val result: String
         val index = i + 1
